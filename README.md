@@ -25,7 +25,9 @@ You can set or verify hostname settings at any point using
 > hostnamectl
 ```
 If you used Ubuntu Server live installation package (*ubuntu-18.04-live-server-amd64.iso*), you must edit **/etc/cloud/*cloud.cfg*** and set *perserve_hostname* to *true*.
+
 ![enter image description here](https://i.imgur.com/NfSfr4K.gif)
+
 # Network Interface Cards
 For the purposes of this Gateway Server, we will install two NICs inside of the virtual machine to prepare for DHCP, and other potential services. This will allow us to have further segmentation of WAN traffic and local-only traffic. I set the two virtual NICs as **Bridged** (connecting to the host machine's currently active LAN) and **Host-only** (connecting to a private virtual NIC located only inside of the host-machine and other virtual machines with the same host-only NIC interface active)
  
