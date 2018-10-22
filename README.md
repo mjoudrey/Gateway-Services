@@ -17,8 +17,10 @@ Example 2 - /etc/netplan/50-cloud-init.yaml
 Depending on the scope of the network, there may be other files requiring your attention for deployments. 
 
 With Ubuntu 18.04, most recommend only editing *50-cloud-init.yaml* for static IP, however, interfaces file alone worked for me.
+
 |Hostname configuration| 
 |-|
+
 You can set or verify hostname settings at any point using 
 ```
 > hostnamectl set-hostname DC1.markj.tech 
