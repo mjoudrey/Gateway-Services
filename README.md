@@ -142,7 +142,6 @@ We can also check the status to verify it's running using systemctl as well.
 ********************************************************************
 Start with enabling ufw as it comes preinstalled with Ubuntu.
 ```
-
 > sudo ufw enable
 > sudo ufw status
 ```
